@@ -11,7 +11,13 @@ class TftItem extends React.Component {
                 <div className="tftheader">
                     <span className="tftitemname"><strong>{item.name}</strong></span>
                     <div className="tftcompcontainer">{item.comps.map(comp => <div key={comp} className="tftitemcomp">{comp}</div>)}</div>
-                    <img className="tftcarrypic" alt="" src={this.props.refs[item.carry]} />
+                    <div>
+                        {item.carries.map(carry => {
+                            return (
+                                <img className="tftcarrypic" alt="" src={this.props.refs[carry]} />
+                            );
+                        })}   
+                    </div>
                 </div>
                 <div className="tftcontent">
                     <div className="tftleftcontent">

@@ -11,7 +11,7 @@
         "quicksilver": "https://cdn.lolchess.gg/images/tft/item/Quicksilver.png",
         "rageblade": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3124.png",
         "sunfire": "https://cdn.lolchess.gg/images/tft/item/SunfireCape.png",
-        
+
         "as": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3124.png",
         "dps": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3031.png",
         "tank": "https://cdn.lolchess.gg/images/tft/item/SunfireCape.png"
@@ -20,7 +20,7 @@
         {
             "name": "elderwood + brawler",
             "comps": ["6x brawler", "4x elderwood"],
-            "carry": "ashe",
+            "carries": ["ashe"],
             "items": [ 
                 {
                     "champ": "ashe",
@@ -38,7 +38,7 @@
         {
             "name": "cultist",
             "comps": ["6x brawler", "4x elderwood"],
-            "carry": "kalista",
+            "carries": ["kalista", "jhin"],
             "items": [ 
                 {
                     "champ": "jhin",
