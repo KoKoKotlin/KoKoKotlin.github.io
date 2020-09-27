@@ -1,0 +1,51 @@
+{
+    "version": "0.1",
+    "last_update": "09/26/2020",
+    "refs": {
+        "ashe": "https://cdn.lolchess.gg/images/tft/champions/set4/Ashe.png",
+        "nunu": "https://cdn.lolchess.gg/images/tft/champions/set4/Nunu.png",
+        "quicksilver": "https://cdn.lolchess.gg/images/tft/item/Quicksilver.png",
+        "sunfire": "https://cdn.lolchess.gg/images/tft/item/SunfireCape.png",
+        "ie": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3031.png",
+        "dps": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3031.png",
+        "tank": "https://cdn.lolchess.gg/images/tft/item/SunfireCape.png"
+    },
+    "data": [
+        {
+            "name": "elderwood + brawler",
+            "comps": ["6x brawler", "4x elderwood"],
+            "carry": "ashe",
+            "items": [ 
+                {
+                    "champ": "ashe",
+                    "items": ["quicksilver", "dps"]
+                },
+                {
+                    "champ": "nunu",
+                    "items": ["tank"]
+                }
+            ],
+            "requiremets": ["chosen elderwood/brawler [hunter]", "items"],
+            "playstyle": ["tahm kench tank item holder", "dps items on dmg carry", "on 9 -> put ap/tank on sett"],
+            "boardUrl": "https://lolchess.gg/builder/set4?deck=85140020f95d11ea87587bd27c9f3ac7"
+        },
+        {
+            "name": "elderwood + brawler",
+            "comps": ["6x brawler", "4x elderwood"],
+            "carry": "ashe",
+            "items": [ 
+                {
+                    "champ": "ashe",
+                    "items": ["quicksilver", "dps"]
+                },
+                {
+                    "champ": "nunu",
+                    "items": ["tank"]
+                }
+            ],
+            "requiremets": ["chosen elderwood/brawler [hunter]", "items"],
+            "playstyle": ["tahm kench tank item holder", "dps items on dmg carry", "on 9 -> put ap/tank on sett"],
+            "boardUrl": "https://lolchess.gg/builder/set4?deck=85140020f95d11ea87587bd27c9f3ac7"
+        }
+    ]
+}
