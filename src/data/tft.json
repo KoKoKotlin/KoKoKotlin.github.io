@@ -3,10 +3,16 @@
     "last_update": "09/26/2020",
     "refs": {
         "ashe": "https://cdn.lolchess.gg/images/tft/champions/set4/Ashe.png",
+        "jhin": "https://cdn.lolchess.gg/images/tft/champions/set4/Jhin.png",
+        "kalista": "https://cdn.lolchess.gg/images/tft/champions/set4/Kalista.png",
         "nunu": "https://cdn.lolchess.gg/images/tft/champions/set4/Nunu.png",
-        "quicksilver": "https://cdn.lolchess.gg/images/tft/item/Quicksilver.png",
-        "sunfire": "https://cdn.lolchess.gg/images/tft/item/SunfireCape.png",
+
         "ie": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3031.png",
+        "quicksilver": "https://cdn.lolchess.gg/images/tft/item/Quicksilver.png",
+        "rageblade": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3124.png",
+        "sunfire": "https://cdn.lolchess.gg/images/tft/item/SunfireCape.png",
+        
+        "as": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3124.png",
         "dps": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3031.png",
         "tank": "https://cdn.lolchess.gg/images/tft/item/SunfireCape.png"
     },
@@ -30,22 +36,22 @@
             "boardUrl": "https://lolchess.gg/builder/set4?deck=85140020f95d11ea87587bd27c9f3ac7"
         },
         {
-            "name": "elderwood + brawler",
+            "name": "cultist",
             "comps": ["6x brawler", "4x elderwood"],
-            "carry": "ashe",
+            "carry": "kalista",
             "items": [ 
                 {
-                    "champ": "ashe",
-                    "items": ["quicksilver", "dps"]
+                    "champ": "jhin",
+                    "items": ["dps"]
                 },
                 {
-                    "champ": "nunu",
-                    "items": ["tank"]
+                    "champ": "kalista",
+                    "items": ["as"]
                 }
             ],
-            "requiremets": ["chosen elderwood/brawler [hunter]", "items"],
-            "playstyle": ["tahm kench tank item holder", "dps items on dmg carry", "on 9 -> put ap/tank on sett"],
-            "boardUrl": "https://lolchess.gg/builder/set4?deck=85140020f95d11ea87587bd27c9f3ac7"
+            "requiremets": ["early culstist chosen"],
+            "playstyle": ["early cultist -> win streak", "roll on 7/8 until stable", "jhin dmg items", "kalista attack speed items", "decide for one carry!"],
+            "boardUrl": "https://lolchess.gg/builder/set4?deck=b0d8dce0f8a111eaa87d2b2782c3323f"
         }
     ]
 }
