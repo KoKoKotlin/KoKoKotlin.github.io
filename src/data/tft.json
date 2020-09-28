@@ -63,8 +63,8 @@
                     "items": ["tank", "ap"]   
                 }
             ],
-            "requiremets": ["<Ashe /> chosen elderwood/brawler [hunter]", "items"],
-            "playstyle": ["tahm kench tank item holder", "dps items on dmg carry", "on 9 -> put ap/tank on sett"],
+            "requiremets": ["chosen elderwood/brawler [hunter]", "items"],
+            "playstyle": ["tahm kench tank item holder", "dps items on dmg carry", "on 9 &rarr; put ap/tank on sett"],
             "boardUrl": "https://lolchess.gg/builder/set4?deck=85140020f95d11ea87587bd27c9f3ac7"
         },
         {
@@ -100,7 +100,7 @@
                 }
             ],
             "requiremets": ["early culstist chosen"],
-            "playstyle": ["early cultist -> win streak", "roll on 7/8 until stable", "jhin dmg items", "kalista attack speed items", "decide for one carry!"],
+            "playstyle": ["early cultist &rarr; win streak", "roll on 7/8 until stable", "jhin dmg items", "kalista attack speed items", "decide for one carry!"],
             "boardUrl": "https://lolchess.gg/builder/set4?deck=b0d8dce0f8a111eaa87d2b2782c3323f"
         },
         {
@@ -118,7 +118,7 @@
                 }
             ],
             "requiremets": ["early jinx items", "chosen sharpshooter"],
-            "playstyle": ["open playstyle -> transistion to this comp", "no nidale because very weak"],
+            "playstyle": ["open playstyle &rarr; transistion to this comp", "no nidale because very weak"],
             "boardUrl": "https://lolchess.gg/builder/set4?deck=e7d290a0f89e11ea92b0494c0c0b0b81"
         },
         {
@@ -182,7 +182,7 @@
                 }
             ],
             "requiremets": ["early chosen moonlight", "items"],
-            "playstyle": ["meet requirements early", "slow roll for aphelios and other moonlight", "brawler if sylas or other tanks", "after tier 4 ahelios -> power lvl", "add hunters and other legendaries"],
+            "playstyle": ["meet requirements early", "slow roll for aphelios and other moonlight", "brawler if sylas or other tanks", "after tier 4 ahelios &rarr; power lvl", "add hunters and other legendaries"],
             "boardUrl": "https://lolchess.gg/builder/set4?deck=36c2ad50f8a011eabe49c566dbffd034"
         },
         {
