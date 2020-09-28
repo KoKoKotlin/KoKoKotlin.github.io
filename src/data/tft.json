@@ -55,7 +55,7 @@
                     "items": ["tank"]
                 }
             ],
-            "requiremets": ["chosen elderwood/brawler [hunter]", "items"],
+            "requiremets": ["<Ashe /> chosen elderwood/brawler [hunter]", "items"],
             "playstyle": ["tahm kench tank item holder", "dps items on dmg carry", "on 9 -> put ap/tank on sett"],
             "boardUrl": "https://lolchess.gg/builder/set4?deck=85140020f95d11ea87587bd27c9f3ac7"
         },

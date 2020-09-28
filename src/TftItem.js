@@ -2,6 +2,8 @@ import React from "react";
 import data from "./data/tft.json";
 import "./App.css";
 
+import ReactHtmlParser from "react-html-parser";
+
 class TftItem extends React.Component {
     render() {
         const item = this.props.item;
@@ -40,7 +42,7 @@ class TftItem extends React.Component {
                                 {item.requiremets.map(req => {
                                     return(
                                         <li key={req}>
-                                            {req}
+                                            {ReactHtmlParser(req)}
                                         </li>
                                     );
                                 })}
@@ -53,7 +55,7 @@ class TftItem extends React.Component {
                                 {item.playstyle.map(pl => {
                                     return (
                                         <li key={pl}>
-                                            {pl}
+                                            {ReactHtmlParser(pl)}
                                         </li>
                                     );
                                 })}
