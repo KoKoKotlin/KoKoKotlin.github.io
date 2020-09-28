@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "530b74996d9022a879d73559bbb859d6",
+    "revision": "64ccd25203f5d18a3b0c343467cb830c",
     "url": "/KoKoKotlin.github.io/index.html"
   },
   {
-    "revision": "728c283ee22ccd5d81fe",
-    "url": "/KoKoKotlin.github.io/static/css/main.9e99889c.chunk.css"
+    "revision": "113f98f9580b0307f482",
+    "url": "/KoKoKotlin.github.io/static/css/main.e03348e0.chunk.css"
   },
   {
     "revision": "70ab0f055886dc8d2a4d",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/KoKoKotlin.github.io/static/js/2.fbb011c9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "728c283ee22ccd5d81fe",
+    "revision": "113f98f9580b0307f482",
     "url": "/KoKoKotlin.github.io/static/js/main.ea42d415.chunk.js"
   },
   {

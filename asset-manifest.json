@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/KoKoKotlin.github.io/static/css/main.9e99889c.chunk.css",
+    "main.css": "/KoKoKotlin.github.io/static/css/main.e03348e0.chunk.css",
     "main.js": "/KoKoKotlin.github.io/static/js/main.ea42d415.chunk.js",
     "main.js.map": "/KoKoKotlin.github.io/static/js/main.ea42d415.chunk.js.map",
     "runtime-main.js": "/KoKoKotlin.github.io/static/js/runtime-main.5e4d5de5.js",
@@ -8,15 +8,15 @@
     "static/js/2.fbb011c9.chunk.js": "/KoKoKotlin.github.io/static/js/2.fbb011c9.chunk.js",
     "static/js/2.fbb011c9.chunk.js.map": "/KoKoKotlin.github.io/static/js/2.fbb011c9.chunk.js.map",
     "index.html": "/KoKoKotlin.github.io/index.html",
-    "precache-manifest.85e9dc43f9b77ff37ab98b26be1973f7.js": "/KoKoKotlin.github.io/precache-manifest.85e9dc43f9b77ff37ab98b26be1973f7.js",
+    "precache-manifest.9af6ed4fa39aa99bc017badd38916032.js": "/KoKoKotlin.github.io/precache-manifest.9af6ed4fa39aa99bc017badd38916032.js",
     "service-worker.js": "/KoKoKotlin.github.io/service-worker.js",
-    "static/css/main.9e99889c.chunk.css.map": "/KoKoKotlin.github.io/static/css/main.9e99889c.chunk.css.map",
+    "static/css/main.e03348e0.chunk.css.map": "/KoKoKotlin.github.io/static/css/main.e03348e0.chunk.css.map",
     "static/js/2.fbb011c9.chunk.js.LICENSE.txt": "/KoKoKotlin.github.io/static/js/2.fbb011c9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5e4d5de5.js",
     "static/js/2.fbb011c9.chunk.js",
-    "static/css/main.9e99889c.chunk.css",
+    "static/css/main.e03348e0.chunk.css",
     "static/js/main.ea42d415.chunk.js"
   ]
 }
