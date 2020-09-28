@@ -4,6 +4,64 @@ import "./App.css";
 
 import ReactHtmlParser from "react-html-parser";
 
+class TftItemHeader extends React.Component {
+    render() {
+        const item = this.props.item;
+        return(
+            <div className="tftheader">
+                <span className="tftitemname"><strong>{item.name}</strong></span>
+                <div className="tftcompcontainer">{item.comps.map(comp => <div key={comp} className="tftitemcomp">{comp}</div>)}</div>
+                <div>
+                    {item.carries.map(carry => {
+                        return (
+                            <img className="tftcarrypic" alt="" src={this.props.refs[carry]} />
+                        );
+                    })}   
+                </div>
+            </div>
+        );
+    }
+}
+
+class TftContentItems extends React.Component {
+    render() {
+        const item = this.props.item;
+        return(
+            <div className="tftleftcontent">
+                {item.items.map((itemContent, index) => {
+                    return (<div key={itemContent + index} className="tftitemcontainer">
+                        <img alt="" className="tftitemchamp" src={this.props.refs[itemContent.champ]} />
+                        {itemContent.items.map((itemRef, index) => {
+                            return(
+                                <img key={itemRef + index} alt="" className="tftitemitem" src={this.props.refs[itemRef]}/>
+                            );
+                        })}
+                    </div>);
+                })}
+            </div>
+        );
+    }
+}
+
+class TftContentList extends React.Component {
+    render() {
+        return(
+            <div>
+                <h3 className="tftrightheading">{this.props.heading}:</h3>
+                <ul className="tftrightcontent--ul">
+                    {this.props.lines.map(line => {
+                        return(
+                            <li key={line}>
+                                {ReactHtmlParser(line)}
+                            </li>
+                        );
+                    })}
+                </ul>
+            </div>
+        );
+    }
+}
+
 class TftItem extends React.Component {
     
     render() {
@@ -11,57 +69,14 @@ class TftItem extends React.Component {
 
         return (
             <div className="tftitem" onClick={() => window.open(item.boardUrl, "_blank")}>
-                <div className="tftheader">
-                    <span className="tftitemname"><strong>{item.name}</strong></span>
-                    <div className="tftcompcontainer">{item.comps.map(comp => <div key={comp} className="tftitemcomp">{comp}</div>)}</div>
-                    <div>
-                        {item.carries.map(carry => {
-                            return (
-                                <img className="tftcarrypic" alt="" src={this.props.refs[carry]} />
-                            );
-                        })}   
-                    </div>
-                </div>
+                <TftItemHeader item={item} refs={this.props.refs} />
                 <div className="tftcontent">
-                    <div className="tftleftcontent">
-                        {item.items.map((itemContent, index) => {
-                            return (<div key={itemContent + index} className="tftitemcontainer">
-                                <img alt="" className="tftitemchamp" src={this.props.refs[itemContent.champ]} />
-                                {itemContent.items.map((itemRef, index) => {
-                                    return(
-                                        <img key={itemRef + index} alt="" className="tftitemitem" src={this.props.refs[itemRef]}/>
-                                    );
-                                })}
-                            </div>);
-                        })}
-                    </div>
+                    <TftContentItems item={item} refs={this.props.refs} />
                     <span className="tftcontentseperator tftcontentseperator--vertical"></span>
                     <div className="tftrightcontent">
-                        <h3 className="tftrightheading">Requirements: </h3>
-                        <div className="tftrequirements">
-                            <ul className="tftrequirements--ul">
-                                {item.requiremets.map(req => {
-                                    return(
-                                        <li key={req}>
-                                            {ReactHtmlParser(req)}
-                                        </li>
-                                    );
-                                })}
-                            </ul>
-                        </div>
+                        <TftContentList lines={item.requirements} heading={"Requirements"} />
                         <div className="tftcontentseperator tftcontentseperator--horizontal"></div>
-                        <div className="tftplaystyle">
-                            <h3 className="tftrightheading">Playstyle:</h3>
-                            <ul className="tftplaystyle--ul">
-                                {item.playstyle.map(pl => {
-                                    return (
-                                        <li key={pl}>
-                                            {ReactHtmlParser(pl)}
-                                        </li>
-                                    );
-                                })}
-                            </ul>
-                        </div>
+                        <TftContentList lines={item.playstyle} heading={"Playstyle"} />
                     </div>
                 </div>
             </div>

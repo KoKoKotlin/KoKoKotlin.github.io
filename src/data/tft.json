@@ -63,7 +63,7 @@
                     "items": ["tank", "ap"]   
                 }
             ],
-            "requiremets": ["chosen elderwood/brawler [hunter]", "items"],
+            "requirements": ["chosen elderwood/brawler [hunter]", "items"],
             "playstyle": ["tahm kench tank item holder", "dps items on dmg carry", "on 9 &rarr; put ap/tank on sett"],
             "boardUrl": "https://lolchess.gg/builder/set4?deck=85140020f95d11ea87587bd27c9f3ac7"
         },
@@ -81,7 +81,7 @@
                     "items": ["rapidfire", "ga", "ie", "giant_slayer"]
                 }
             ],
-            "requiremets": ["dusk chosen", "quicksilver on riven"],
+            "requirements": ["dusk chosen", "quicksilver on riven"],
             "playstyle": ["play cultist early", "transition into dusk from cultist", "6 dusk only with spatula", "when 6 dusk defensive riven", "when 4 dusk 1 offensive item on riven", "roll on 7 until stable at 4-1/2", "roll on 8 until stable on 5-1/2"],
             "boardUrl": "https://lolchess.gg/builder/set4?deck=b0d8dce0f8a111eaa87d2b2782c3323f"
         },
@@ -99,7 +99,7 @@
                     "items": ["as"]
                 }
             ],
-            "requiremets": ["early culstist chosen"],
+            "requirements": ["early culstist chosen"],
             "playstyle": ["early cultist &rarr; win streak", "roll on 7/8 until stable", "jhin dmg items", "kalista attack speed items", "decide for one carry!"],
             "boardUrl": "https://lolchess.gg/builder/set4?deck=b0d8dce0f8a111eaa87d2b2782c3323f"
         },
@@ -117,7 +117,7 @@
                     "items": ["ga", "dps"]
                 }
             ],
-            "requiremets": ["early jinx items", "chosen sharpshooter"],
+            "requirements": ["early jinx items", "chosen sharpshooter"],
             "playstyle": ["open playstyle &rarr; transistion to this comp", "no nidale because very weak"],
             "boardUrl": "https://lolchess.gg/builder/set4?deck=e7d290a0f89e11ea92b0494c0c0b0b81"
         },
@@ -135,7 +135,7 @@
                     "items": ["dps", "hand_of_justice"]
                 }
             ],
-            "requiremets": ["morello very important", "lots of dps for talon"],
+            "requirements": ["morello very important", "lots of dps for talon"],
             "playstyle": ["transition into this comp in mid (e.g. from assassin)", "look for important items early (first carousel)"],
             "boardUrl": "https://lolchess.gg/builder/set4?deck=673e01f0f89f11ea978eb9105c3855d9"
         },
@@ -153,7 +153,7 @@
                     "items": ["rapidfire", "bluebuff", "quicksilver"]
                 }
             ],
-            "requiremets": ["items", "early ninja buff"],
+            "requirements": ["items", "early ninja buff"],
             "playstyle": ["play misc until looks like ninja", "slow roll on 6/7 if zed carry", "akkali carry 7 on 4-1/2 then roll", "lvl 8 on 5-1/2"],
             "boardUrl": "https://lolchess.gg/builder/set4?deck=9d85c5a0f96211ea814d592f95719803"
         },
@@ -167,7 +167,7 @@
                     "items": ["bluebuff", "ap"]
                 }
             ],
-            "requiremets": ["chosen moonlight", "lots of tier 1 moonlights", "items"],
+            "requirements": ["chosen moonlight", "lots of tier 1 moonlights", "items"],
             "playstyle": ["slow roll for tier 1 moonlights and tier 1 vanguards", "power lvl after moonlight", "play strongest board after that"],
             "boardUrl": "https://lolchess.gg/builder/set4?deck=248ad490f96011ea875619b4cc5ed723"
         },
@@ -181,7 +181,7 @@
                     "items": ["ga", "rageblade", "shojin", "ie"]
                 }
             ],
-            "requiremets": ["early chosen moonlight", "items"],
+            "requirements": ["early chosen moonlight", "items"],
             "playstyle": ["meet requirements early", "slow roll for aphelios and other moonlight", "brawler if sylas or other tanks", "after tier 4 ahelios &rarr; power lvl", "add hunters and other legendaries"],
             "boardUrl": "https://lolchess.gg/builder/set4?deck=36c2ad50f8a011eabe49c566dbffd034"
         },
@@ -195,7 +195,7 @@
                     "items": ["gunblade", "tank"]
                 }
             ],
-            "requiremets": ["items", "early chosen moonlight"],
+            "requirements": ["items", "early chosen moonlight"],
             "playstyle": ["early chosen moonlight diana or lissandra", "slow roll for diana and lissandra", "add 4-6 assassins and tanks or legendaries"],
             "boardUrl": "https://lolchess.gg/builder/set4?deck=48611750f9d511ea9737e3804b6aa32f"
         },
@@ -209,7 +209,7 @@
                     "items": ["quicksilver", "ie", "titans_resolve"]
                 }
             ],
-            "requiremets": ["early yasuo chosen", "items"],
+            "requirements": ["early yasuo chosen", "items"],
             "playstyle": ["slow roll for yasuo at 5", "then power lvl"],
             "boardUrl": "https://lolchess.gg/builder/set4?deck=066d1610f89e11eab399331be3ce1217"
         },
@@ -223,7 +223,7 @@
                     "items": ["rapidfire"]
                 }
             ],
-            "requiremets": ["lots of early wukong", "items"],
+            "requirements": ["lots of early wukong", "items"],
             "playstyle": ["slow roll wukong", "play vanguard and mystics"],
             "boardUrl": "https://lolchess.gg/builder/set4?deck=410aa5e0f96311ea9663774259f12a57"
         },
@@ -237,7 +237,7 @@
                     "items": ["gunblade", "quicksilver", "rabadons"]
                 }
             ],
-            "requiremets": ["3 star katarina or it wont work"],
+            "requirements": ["3 star katarina or it wont work"],
             "playstyle": ["chosen katarina", "get her 3 star", "play 3-6 warlord and legendaries"],
             "boardUrl": "https://lolchess.gg/builder/set4?deck=ca0ebfa0f96311eab0b75f120a32d011"
         },
@@ -251,7 +251,7 @@
                     "items": ["rapidfire",  "quicksilver", "ga", "bt"]
                 }
             ],
-            "requiremets": ["chosen zed or chosen spirit", "zed items"],
+            "requirements": ["chosen zed or chosen spirit", "zed items"],
             "playstyle": ["slow roll 3 star zed", "power lvl"],
             "boardUrl": "https://lolchess.gg/builder/set4?deck=c1c10c60f9e511ea970413411e909c2d"
         },
@@ -265,7 +265,7 @@
                     "items": ["juweled_gauntlet",  "juweled_gauntlet", "ga", "shojin", "rabadons"]
                 }
             ],
-            "requiremets": ["mystic chosen or vanguard chosen", "items"],
+            "requirements": ["mystic chosen or vanguard chosen", "items"],
             "playstyle": ["early play strongest", "then slow roll ahri", "defensive build on vanguards"],
             "boardUrl": "https://lolchess.gg/builder/set4?deck=b7929c20fcaa11ea947e9ff0fa96b0f5"
         }
