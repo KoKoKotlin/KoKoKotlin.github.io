@@ -5,11 +5,12 @@ import "./App.css";
 import ReactHtmlParser from "react-html-parser";
 
 class TftItem extends React.Component {
+    
     render() {
         const item = this.props.item;
 
         return (
-            <div className="tftitem">
+            <div className="tftitem" onClick={() => window.open(item.boardUrl, "_blank")}>
                 <div className="tftheader">
                     <span className="tftitemname"><strong>{item.name}</strong></span>
                     <div className="tftcompcontainer">{item.comps.map(comp => <div key={comp} className="tftitemcomp">{comp}</div>)}</div>
