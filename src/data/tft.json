@@ -14,6 +14,8 @@
         "lissandra": "https://cdn.lolchess.gg/images/tft/champions/set4/Lissandra.png",
         "morgana": "https://cdn.lolchess.gg/images/tft/champions/set4/Morgana.png",
         "nunu": "https://cdn.lolchess.gg/images/tft/champions/set4/Nunu.png",
+        "riven": "https://cdn.lolchess.gg/images/tft/champions/set4/Riven.png",
+        "sett": "https://cdn.lolchess.gg/images/tft/champions/set4/Sett.png",
         "talon": "https://cdn.lolchess.gg/images/tft/champions/set4/Talon.png",
         "wukong": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/MonkeyKing.png",
         "yasuo": "https://cdn.lolchess.gg/images/tft/champions/set4/Yasuo.png",
@@ -23,8 +25,10 @@
         "bt": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3072.png",
         "hand_of_justice": "https://cdn.lolchess.gg/images/tft/item/HandofJustice.png",
         "ga": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3026.png",
+        "giant_slayer": "https://cdn.lolchess.gg/images/tft/item/GiantSlayer.png",
         "gunblade": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3146.png",
         "ie": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3031.png",
+        "ionik_spark": "https://cdn.lolchess.gg/images/tft/item/IonicSpark.png",
         "juweled_gauntlet": "https://cdn.lolchess.gg/images/tft/item/ArcaneGauntlet.png",
         "morellos": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3165.png",
         "quicksilver": "https://cdn.lolchess.gg/images/tft/item/Quicksilver.png",
@@ -48,16 +52,38 @@
             "items": [ 
                 {
                     "champ": "ashe",
-                    "items": ["quicksilver", "dps"]
+                    "items": ["quicksilver", "giant_slayer", "dps"]
                 },
                 {
                     "champ": "nunu",
                     "items": ["tank"]
+                },
+                {
+                    "champ": "sett",
+                    "items": ["tank", "ap"]   
                 }
             ],
             "requiremets": ["chosen elderwood/brawler [hunter]", "items"],
             "playstyle": ["tahm kench tank item holder", "dps items on dmg carry", "on 9 -> put ap/tank on sett"],
             "boardUrl": "https://lolchess.gg/builder/set4?deck=85140020f95d11ea87587bd27c9f3ac7"
+        },
+        {
+            "name": "dusk + cultist",
+            "comps": ["4-6x dusk", "3x cultist"],
+            "carries": ["riven", "jhin"],
+            "items": [ 
+                {
+                    "champ": "riven",
+                    "items": ["quicksilver", "ionik_spark", "ga", "sunfire", "ap"]
+                },
+                {
+                    "champ": "jhin",
+                    "items": ["rapidfire", "ga", "ie", "giant_slayer"]
+                }
+            ],
+            "requiremets": ["dusk chosen", "quicksilver on riven"],
+            "playstyle": ["play cultist early", "transition into dusk from cultist", "6 dusk only with spatula", "when 6 dusk defensive riven", "when 4 dusk 1 offensive item on riven", "roll on 7 until stable at 4-1/2", "roll on 8 until stable on 5-1/2"],
+            "boardUrl": "https://lolchess.gg/decks/6dusk-3cultist-2mystic-2sharpshooter-2vanguard"
         },
         {
             "name": "cultist",
