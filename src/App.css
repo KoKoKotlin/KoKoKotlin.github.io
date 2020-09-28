@@ -26,13 +26,19 @@ body {
     justify-content: normal;
 }
 
-.tftitemcomp {
+.tftcomp {
     background: black;
     border-radius: 5px;
     text-align: center;
-    margin-right: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    height: 21px;
+    margin: auto;
+}
+
+.tftcomp + .tftcomp
+{
+    margin-left: 10px;
 }
 
 .tftcarrypic {

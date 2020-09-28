@@ -154,7 +154,7 @@
                 }
             ],
             "requirements": ["items", "early ninja buff"],
-            "playstyle": ["play misc until looks like ninja", "slow roll on 6/7 if zed carry", "akkali carry 7 on 4-1/2 then roll", "lvl 8 on 5-1/2"],
+            "playstyle": ["play misc until looks like ninja", "slow roll on 6/7 if zed carry", "akali carry 7 on 4-1/2 then roll", "lvl 8 on 5-1/2"],
             "boardUrl": "https://lolchess.gg/builder/set4?deck=9d85c5a0f96211ea814d592f95719803"
         },
         {
@@ -237,13 +237,13 @@
                     "items": ["gunblade", "quicksilver", "rabadons"]
                 }
             ],
-            "requirements": ["3 star katarina or it wont work"],
+            "requirements": ["3 star katarina <span style='color:red;'> or it wont work </span>"],
             "playstyle": ["chosen katarina", "get her 3 star", "play 3-6 warlord and legendaries"],
             "boardUrl": "https://lolchess.gg/builder/set4?deck=ca0ebfa0f96311eab0b75f120a32d011"
         },
         {
             "name": "spirit",
-            "comps": ["4x warlord", "4x spirit"],
+            "comps": ["4x shade", "4x spirit"],
             "carries": ["zed"],
             "items": [ 
                 {

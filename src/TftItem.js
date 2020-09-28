@@ -10,7 +10,7 @@ class TftItemHeader extends React.Component {
         return(
             <div className="tftheader">
                 <span className="tftitemname"><strong>{item.name}</strong></span>
-                <div className="tftcompcontainer">{item.comps.map(comp => <div key={comp} className="tftitemcomp">{comp}</div>)}</div>
+                <div className="tftcompcontainer">{item.comps.map(comp => <div key={comp} className="tftcomp">{comp}</div>)}</div>
                 <div>
                     {item.carries.map(carry => {
                         return (
