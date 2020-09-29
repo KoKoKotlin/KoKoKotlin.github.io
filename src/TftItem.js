@@ -91,7 +91,6 @@ class TftItem extends React.Component {
 class TftLink extends React.Component {
     render() {
         const offset = this.props.index * 260 + 170;
-        console.log(offset)
         return(
             <th className="linkstableitem">
                 <Link className="linksinlinelink" activeClass="active" to={this.props.id} smooth={true} offset={offset}>{this.props.name}</Link>
@@ -132,27 +131,26 @@ class TftLinks extends React.Component {
     }
 }
 
-class TftItemContainer extends React.Component {
-    constructor() {
-        super();
-        
-        const entries = data.data.map((item, index) => {
-            return <TftItem key={index} item={item} refs={data.refs} />;
-        });
-        
-        const links = <TftLinks />
-
-        this.state = {
-            entries,
-            links
-        }
+class TftFooter extends React.Component {
+    render() {
+        return (
+        <div className="tftfootercontainer">
+            <div className="tftfooteritem">If something is missing or isn't correct/up to date: <a target="_blank" href="https://github.com/KoKoKotlin/KoKoKotlin.github.io/issues">File an issue</a> or <a target="_blank" href="mailto:labruzzler@gmail.com">email me</a></div>
+            <div className="tftfooteritem">Last update: {data.last_update}</div>
+            <div className="tftfooteritem">Version: {data.version}</div>
+        </div>);
     }
+}
 
+class TftItemContainer extends React.Component {
     render() {
         return (
             <div>
-                {this.state.links}
-                {this.state.entries}
+                <TftLinks />
+                {data.data.map((item, index) => {
+                    return <TftItem key={index} item={item} refs={data.refs} />;
+                })}
+                <TftFooter />
             </div>
         );
     }
