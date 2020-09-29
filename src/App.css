@@ -3,11 +3,36 @@ body {
     zoom: 2;
 }
 
+.tftlinkcontainer {
+    width: 100%;
+}
+
+.linkstable {
+    width: 100%;
+}
+
+.linkstableitem {
+    background: #202020;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.linkstableitem:hover {
+    background: #707050;
+}
+
+
+.linksinlinelink {
+    display:block;
+}
+
 .tftitem {
     background: #202020;
     border-radius: 5px;
     border: 5px solid transparent;
     margin: 10px 5px auto 5px;
+    cursor: pointer;
 }
 
 .tftitem:hover {

@@ -1,4 +1,6 @@
 import React from "react";
+import { Link, Element } from "react-scroll";
+
 import data from "./data/tft.json";
 import "./App.css";
 
@@ -63,20 +65,22 @@ class TftContentList extends React.Component {
 }
 
 class TftItem extends React.Component {
-    
     render() {
         const item = this.props.item;
 
         return (
-            <div className="tftitem" onClick={() => window.open(item.boardUrl, "_blank")}>
-                <TftItemHeader item={item} refs={this.props.refs} />
-                <div className="tftcontent">
-                    <TftContentItems item={item} refs={this.props.refs} />
-                    <span className="tftcontentseperator tftcontentseperator--vertical"></span>
-                    <div className="tftrightcontent">
-                        <TftContentList lines={item.requirements} heading={"Requirements"} />
-                        <div className="tftcontentseperator tftcontentseperator--horizontal"></div>
-                        <TftContentList lines={item.playstyle} heading={"Playstyle"} />
+            <div>
+                <Element name={item.id}></Element>
+                <div  className="tftitem" onClick={() => window.open(item.boardUrl, "_blank")}>
+                    <TftItemHeader item={item} refs={this.props.refs} />
+                    <div className="tftcontent">
+                        <TftContentItems item={item} refs={this.props.refs} />
+                        <span className="tftcontentseperator tftcontentseperator--vertical"></span>
+                        <div className="tftrightcontent">
+                            <TftContentList lines={item.requirements} heading={"Requirements"} />
+                            <div className="tftcontentseperator tftcontentseperator--horizontal"></div>
+                            <TftContentList lines={item.playstyle} heading={"Playstyle"} />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -84,17 +88,71 @@ class TftItem extends React.Component {
     }
 }
 
-class TftItemContainer extends React.Component {
+class TftLink extends React.Component {
     render() {
-        const entries = data.data.map((item, index) => {
-            return (
-                <TftItem key={index} item={item} refs={data.refs} />
-            );
-        });
+        const offset = this.props.index * 260 + 170;
+        console.log(offset)
+        return(
+            <th className="linkstableitem">
+                <Link className="linksinlinelink" activeClass="active" to={this.props.id} smooth={true} offset={offset}>{this.props.name}</Link>
+            </th>
+        );
+    }
+}
 
+class TftLinks extends React.Component {
+    
+    createDom() {
+        const items = data.data;
+        const linksPerRow = 3;
+        const numberOfRows = items.length / linksPerRow;
+        
+        const rows = [];
+        for(let i = 0; i < numberOfRows; i++) {
+            const row = [];
+            for(let j = 0; j < linksPerRow; j++) try { row.push(
+                <TftLink index={i * 3 + j} id={items[i * linksPerRow + j].id} name={items[i * linksPerRow + j].name}/>
+            ); } catch(e) { } 
+            rows.push(<tr>{row}</tr>);    
+        }
+
+        return rows;
+    }
+
+    render() {
+        return(
+            <div className="tftlinkcontainer">
+                <table className="linkstable">
+                    <tbody className="linkstablebody">
+                        {this.createDom()}
+                    </tbody>
+                </table>
+            </div>
+        );
+    }
+}
+
+class TftItemContainer extends React.Component {
+    constructor() {
+        super();
+        
+        const entries = data.data.map((item, index) => {
+            return <TftItem key={index} item={item} refs={data.refs} />;
+        });
+        
+        const links = <TftLinks />
+
+        this.state = {
+            entries,
+            links
+        }
+    }
+
+    render() {
         return (
-            <div> 
-                {entries}
+            <div>
+                {this.state.links}
+                {this.state.entries}
             </div>
         );
     }

@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
-import TftTftItemContainer from "./TftItem.js";
+
+import TftItemContainer from "./TftItem.js";
 
 function App() {
-  return (
+    return (
     <div>
-      <TftTftItemContainer />
+      <TftItemContainer />
     </div>
   );
 }
