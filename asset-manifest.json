@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/KoKoKotlin.github.io/static/css/main.f9cccdef.chunk.css",
-    "main.js": "/KoKoKotlin.github.io/static/js/main.c246ba9a.chunk.js",
-    "main.js.map": "/KoKoKotlin.github.io/static/js/main.c246ba9a.chunk.js.map",
+    "main.js": "/KoKoKotlin.github.io/static/js/main.f98e8c47.chunk.js",
+    "main.js.map": "/KoKoKotlin.github.io/static/js/main.f98e8c47.chunk.js.map",
     "runtime-main.js": "/KoKoKotlin.github.io/static/js/runtime-main.5e4d5de5.js",
     "runtime-main.js.map": "/KoKoKotlin.github.io/static/js/runtime-main.5e4d5de5.js.map",
     "static/js/2.e841ba26.chunk.js": "/KoKoKotlin.github.io/static/js/2.e841ba26.chunk.js",
     "static/js/2.e841ba26.chunk.js.map": "/KoKoKotlin.github.io/static/js/2.e841ba26.chunk.js.map",
     "index.html": "/KoKoKotlin.github.io/index.html",
-    "precache-manifest.b5ea639abf7a982985b9be0f1e694b57.js": "/KoKoKotlin.github.io/precache-manifest.b5ea639abf7a982985b9be0f1e694b57.js",
+    "precache-manifest.abf0a31174699c9e455a411cf484fe3d.js": "/KoKoKotlin.github.io/precache-manifest.abf0a31174699c9e455a411cf484fe3d.js",
     "service-worker.js": "/KoKoKotlin.github.io/service-worker.js",
     "static/css/main.f9cccdef.chunk.css.map": "/KoKoKotlin.github.io/static/css/main.f9cccdef.chunk.css.map",
     "static/js/2.e841ba26.chunk.js.LICENSE.txt": "/KoKoKotlin.github.io/static/js/2.e841ba26.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5e4d5de5.js",
     "static/js/2.e841ba26.chunk.js",
     "static/css/main.f9cccdef.chunk.css",
-    "static/js/main.c246ba9a.chunk.js"
+    "static/js/main.f98e8c47.chunk.js"
   ]
 }
