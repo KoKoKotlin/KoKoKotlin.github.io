@@ -1,6 +1,6 @@
 {
     "version": "0.2",
-    "last_update": "09/28/2020",
+    "last_update": "10/03/2020",
     "refs": {
         "ahri": "https://cdn.lolchess.gg/images/tft/champions/set4/Ahri.png",
         "akali": "https://cdn.lolchess.gg/images/tft/champions/set4/Akali.png",
@@ -35,6 +35,7 @@
         "rabadons": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3089.png",
         "rageblade": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3124.png",
         "rapidfire": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3094.png",
+        "runaans": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3085.png",
         "shojin": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3161.png",
         "sunfire": "https://cdn.lolchess.gg/images/tft/item/SunfireCape.png",
         "titans_resolve": "https://cdn.lolchess.gg/images/tft/item/TitansResolve.png",
@@ -64,8 +65,8 @@
                     "items": ["tank", "ap"]   
                 }
             ],
-            "requirements": ["chosen elderwood/brawler [hunter]", "items"],
-            "playstyle": ["tahm kench tank item holder", "dps items on dmg carry", "on 9 &rarr; put ap/tank on sett"],
+            "requirements": ["chosen elderwood/brawler", "items"],
+            "playstyle": ["brawler start", "tahm kench tank item holder", "dps items on dmg carry", "on 9 &rarr; put ap/tank on sett"],
             "boardUrl": "https://lolchess.gg/builder/set4?deck=85140020f95d11ea87587bd27c9f3ac7"
         },
         {
@@ -90,7 +91,7 @@
         {
             "id": "86745583C26589C435FDCBC45714CCC60CEA510CA0C774A9CB19E648EE9C1F0DF8B20630C83FBA95A8F4B87181D382BF6614D1F8EF5BDADBA694614B167EA16A",
             "name": "cultist",
-            "comps": ["6x cultist"],
+            "comps": ["6-9x cultist"],
             "carries": ["kalista", "jhin"],
             "items": [ 
                 {
@@ -102,14 +103,14 @@
                     "items": ["as"]
                 }
             ],
-            "requirements": ["early culstist chosen"],
+            "requirements": ["chosen dusk, cultist, keeper, sharpshooter"],
             "playstyle": ["early cultist &rarr; win streak", "roll on 7/8 until stable", "jhin dmg items", "kalista attack speed items", "decide for one carry!"],
             "boardUrl": "https://lolchess.gg/builder/set4?deck=b0d8dce0f8a111eaa87d2b2782c3323f"
         },
         {
             "id": "ACC28DB2BEB7B42BAA1CB0243D401CCB4E3FCE44D7B02879A52799AADFF541522D8822598B2FA664F9D5156C00C924805D75C3868BD56C2ACB81D37E98E35ADC",
             "name": "sharpshooter",
-            "comps": ["4x sharpshooter"],
+            "comps": ["4-6x sharpshooter"],
             "carries": ["jhin", "jinx"],
             "items": [ 
                 {
@@ -141,7 +142,7 @@
                 }
             ],
             "requirements": ["morello very important", "lots of dps for talon"],
-            "playstyle": ["transition into this comp in mid (e.g. from assassin)", "look for important items early (first carousel)"],
+            "playstyle": ["transition into this comp in mid (e.g. from assassin)", "look for important items early (first carousel)", "sword items for talon"],
             "boardUrl": "https://lolchess.gg/builder/set4?deck=673e01f0f89f11ea978eb9105c3855d9"
         },
         {
@@ -181,17 +182,17 @@
         {
             "id": "19F142B018F307BFDF1C7009D15A29417C96D8678D2982EEBCE4961B2E67EEB118A8EBB1D75B70087C3E65BC793450E3FE4A10002BEFA2D038E5AED4796937F2",
             "name": "moonlight",
-            "comps": ["3x moonlight", "4x hunter"],
+            "comps": ["3x moonlight", "4x spirit"],
             "carries": ["aphelios"],
             "items": [ 
                 {
                     "champ": "aphelios",
-                    "items": ["ga", "rageblade", "shojin", "ie"]
+                    "items": ["ga", "rageblade", "quicksilver"]
                 }
             ],
-            "requirements": ["early chosen moonlight", "items"],
-            "playstyle": ["meet requirements early", "slow roll for aphelios and other moonlight", "brawler if sylas or other tanks", "after tier 4 ahelios &rarr; power lvl", "add hunters and other legendaries"],
-            "boardUrl": "https://lolchess.gg/builder/set4?deck=36c2ad50f8a011eabe49c566dbffd034"
+            "requirements": ["chosen aphelios", "items"],
+            "playstyle": ["slow roll for aphelios and other moonlight on 5/6", "brawler if sylas or other tanks", "after tier 4 ahelios &rarr; power lvl"],
+            "boardUrl": "https://lolchess.gg/builder/set4?deck=038e9500045d11eb837ffb7e1f98aee5"
         },
         {
             "id": "2241BC8FC70705B42EFEAD371FD4982C5BA69917E5B4B895810002644F0386DA9C3131793458C2BF47608480D64A07278133C99912E0BA2DAF23098F3520EB97",
@@ -261,27 +262,43 @@
             "items": [ 
                 {
                     "champ": "zed",
-                    "items": ["rapidfire",  "quicksilver", "ga", "bt"]
+                    "items": ["rapidfire",  "bt", "runaans", "ie"]
                 }
             ],
             "requirements": ["chosen zed or chosen spirit", "zed items"],
-            "playstyle": ["slow roll 3 star zed", "power lvl"],
-            "boardUrl": "https://lolchess.gg/builder/set4?deck=c1c10c60f9e511ea970413411e909c2d"
+            "playstyle": ["slow roll 3 star zed or fast 9", "when fast 9 play lots of spirits/shade/legendaries", "tank items on yuumi"],
+            "boardUrl": "https://lolchess.gg/builder/set4?deck=4658ef60feab11ea9198a557a0b7b6a5"
         },
         {
             "id": "F14AAE6A0E050B74E4B7B9A5B2EF1A60CECCBBCA39B132AE3E8BF88D3A946C6D8687F3266FD2B626419D8B67DCF1D8D7C0FE72D4919D9BD05EFBD37070CFB41A",
-            "name": "vanguard",
+            "name": "ahri + vanguard",
             "comps": ["4-6x vanguard", "4x mystic"],
             "carries": ["ahri"],
             "items": [ 
                 {
                     "champ": "ahri",
-                    "items": ["juweled_gauntlet",  "juweled_gauntlet", "ga", "shojin", "rabadons"]
+                    "items": ["juweled_gauntlet", "shojin", "shojin", "rabadons"]
                 }
             ],
             "requirements": ["mystic chosen or vanguard chosen", "items"],
-            "playstyle": ["early play strongest", "then slow roll ahri", "defensive build on vanguards"],
-            "boardUrl": "https://lolchess.gg/builder/set4?deck=b7929c20fcaa11ea947e9ff0fa96b0f5"
+            "playstyle": ["early play strongest", "ranged caster as item holder for ahri", "then slow roll ahri on 7/8", "defensive build on vanguards"],
+            "boardUrl": "https://lolchess.gg/builder/set4?deck=5943b810fea611ea923dc5352360f190"
+        },
+        {
+            "id": "F87323BD24C4EDF8B73225C4338A7A5EDABC88C5967D764ACF388AC1BB9FE32EE8C5D1F0E76FDD86F0FC23C4872BF9CE9284EF20C3D10E6A558EDD3B027EF27F",
+            "name": "mages",
+            "comps": ["6x mage"],
+            "carries": ["ahri", "veigar"],
+            "items": [
+                {
+                    "champ": "ahri",
+                    "items": ["rabadons", "bluebuff", "juweled_gauntlet"]
+
+                }
+            ],
+            "requirements": ["mana/ap items", "chosen mage"],
+            "playstyle": ["frontline annie/tanks", "tank items on annie"],
+            "boardUrl": "https://lolchess.gg/builder/set4?deck=bebd02b0f96411ea9e4db17bc0c63309"
         }
     ]
 }
